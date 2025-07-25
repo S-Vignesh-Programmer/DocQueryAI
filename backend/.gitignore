@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Build output (if any)
+dist/
+build/
+
+# Environment variables
+.env
+**/.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS junk files
+.DS_Store
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# System files
+Thumbs.db
