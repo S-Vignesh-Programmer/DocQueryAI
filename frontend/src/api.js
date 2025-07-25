@@ -1,4 +1,3 @@
-// src/api/api.js
 import axios from "axios";
 
 const api = axios.create({
@@ -6,9 +5,10 @@ const api = axios.create({
   headers: {
     "Content-Type": "application/json",
   },
+  withCredentials: true, 
 });
 
-// Attach JWT to every request
+// Attach JWT to every request (if using JWT)
 export const setAuthToken = (token) => {
   if (token) {
     api.defaults.headers.common["Authorization"] = `Bearer ${token}`;
