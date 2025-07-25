@@ -5,10 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "cp node_modules/pdfjs-dist/build/pdf.worker.mjs public/pdf.worker.mjs && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "postinstall": "cp node_modules/pdfjs-dist/build/pdf.worker.js public/pdf.worker.js"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
