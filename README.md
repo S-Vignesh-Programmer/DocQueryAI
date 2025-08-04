@@ -31,7 +31,7 @@
 |------------    |-----------------------------------------|
 | Frontend       | React.js, TailwindCSS                   |
 | Backend        | Node.js, Express.js                     |
-| Database       | MongoDB with Mongoose                   |
+| Database       | MongoDB                                 |
 | Authentication | JWT, Bcrypt.js, CORS                    |
 | AI Integration | Gemini API (`gemini-2.5-flash`)         |
 | Tools          | Git, GitHub, Postman, ThunderClient     |
