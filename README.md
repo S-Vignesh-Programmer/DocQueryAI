@@ -15,12 +15,13 @@
 
 -  Upload any PDF and extract its content
 -  Ask questions using **Gemini AI** (`gemini-2.5-flash`)
+-  JWT-based secure login & signup
 -  Secure authentication with **JWT**, **Bcrypt**, and **CORS**
 -  User Dashboard showing plan and daily query usage
 -  Premium Pricing Model with two tiers
 -  Fully responsive UI using **React.js** and **Tailwind CSS**
 -  Backend logic in **Node.js + Express.js**
--  Data management with **MongoDB + Mongoose**
+-  Data management with **MongoDB**
 
 ---
 
@@ -71,6 +72,7 @@ DocQueryAI/
 ## 🔐 Authentication Flow
 
 - Users can **sign up** and **log in**
+- Login → JWT Token generated on successful login
 - JWT token is generated and verified using middleware
 - Passwords are hashed with **Bcrypt**
 - Only authenticated users can access the dashboard and query services
